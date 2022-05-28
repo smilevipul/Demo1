@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+
+
+
+
+header{
+    background-color: hotpink;
+}
+
+footer,nav {
+    display: flex;
+    background-color:darkgray;
+    overflow: hidden;
+}
+footer a:hover,nav a:hover{
+    color: hotpink;
+}
+
+footer a,nav a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+section img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color:darkgray;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+footer a:hover{
+    color: hotpink;
+}
+
+ul{
+    list-style:circle;
+}
+
+.banner{
+    background-image: url(assets/download.gif);
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 20%;
+    background-attachment: fixed;
+}
+
+
+.flex-item-right{
+    margin-left: auto;
+}
+
+.pd span,.hb span,.ed span,.ad span,.fd span{
+    /* Created with https://www.css-gradient.com */
+background: #716763;
+background: -webkit-linear-gradient(top left, #716763, #DD97B1);
+background: -moz-linear-gradient(top left, #716763, #DD97B1);
+background: linear-gradient(to bottom right, #716763, #DD97B1);
+    color: aliceblue;
+    padding: 10px 55px;
+    border-radius: 15px;
+}
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+.carousel-cell {
+  width: 66%;
+  
+  margin-right: 10px;
+  
+  border-radius: 5px;
+  
+}
+
+.carousel-cell video{
+    max-width: 50%;
+}
+
+.profile-img{
+    border-radius: 100%;  
+}
+
+.sm-handle a{
+    
+    background-color:darkgray;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration:none;
+    font-size: 1em;
+    text-align: center;
+}
+.sm-handle a:hover{
+    background-color: cadetblue;
+}
+.sm-handle a i{
+    margin: 5px;
+
+}
+
+a .insta{
+    color: #FF0000;
+}
+a .fb{
+    color:#4267B2;
+}
+a .link{
+    color: #0e76a8;
+}
+
+.about_content{
+    color: black;
+    padding-bottom: 10px 0px 20px 0px;
+
+}
+
+@media screen and (max-width: 600px) {
+   footer,nav{
+        flex-direction: column;
+    }
+  /* returing to normal by the use of media quiry */
+.flex-item-right{
+    margin-left: 0;
+}
+}
